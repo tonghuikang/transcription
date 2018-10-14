@@ -1,5 +1,3 @@
-*.npy
-*.wav
-*.mid
-!cover.wav
+.DS_Store
+
 

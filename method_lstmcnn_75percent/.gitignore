@@ -1,6 +1,8 @@
-notes/
-midi/
-wav/
-wav_processed/
-spectrogram/
-label/
+./notes/
+./midi/
+./wav/
+./wav_processed/
+./spectrogram/
+./label/
+./sample/*
+!./sample/notes/
