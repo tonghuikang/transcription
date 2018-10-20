@@ -1,3 +1,5 @@
+# installation of sox is necessary https://pypi.org/project/pysndfx/
+
 from time import sleep
 import subprocess
 
@@ -10,7 +12,7 @@ def convert_midi_to_signal(filename):
     https://github.com/FluidSynth/fluidsynth/wiki/BuildingWithCMake
     returns mono signal - could we use stereo information for evaluation someday?
     '''
-    soundfont_dir = "~/soundfonts/Sonatina_Symphonic_Orchestra.sf2"
+    soundfont_dir = "~/soundfonts/GeneralUserGSv1.471.sf2"
     
     subprocess.run("fluidsynth -F ./wav/{}.wav {} {}"
                    .format(filename[-20:-4],
